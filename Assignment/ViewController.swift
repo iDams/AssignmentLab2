@@ -13,7 +13,28 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    var result = 0;
+    
+    @IBOutlet weak var LabelCounter: UILabel!
 
 
+    
+    @IBAction func plusButton(_ sender: Any) {
+        increment();
+    }
+    
+    @IBAction func minuButton(_ sender: Any) {
+        decrement();
+    }
+    
+    func increment(){
+        result = result + 1;
+        LabelCounter.text = String(result)
+    }
+    
+    func decrement(){
+        result = result - 1;
+        LabelCounter.text = String(result)
+    }
 }
 
