@@ -52,6 +52,9 @@
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reset"/>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eFR-Ua-EmV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgO-IL-ewf">
                                 <rect key="frame" x="254" y="743" width="100" height="35"/>
@@ -63,6 +66,9 @@
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Step = 2"/>
+                                <connections>
+                                    <action selector="stepButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X2f-lz-4SP"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ios-marketing.png" translatesAutoresizingMaskIntoConstraints="NO" id="c7g-x2-F6I">
                                 <rect key="frame" x="87" y="142" width="240" height="128"/>
