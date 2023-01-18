@@ -13,6 +13,7 @@
 		A9755CA829786BFA00819F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9755CA629786BFA00819F7A /* Main.storyboard */; };
 		A9755CAA29786BFC00819F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9755CA929786BFC00819F7A /* Assets.xcassets */; };
 		A9755CAD29786BFC00819F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9755CAB29786BFC00819F7A /* LaunchScreen.storyboard */; };
+		A9755CB5297876EB00819F7A /* ios-marketing.png in Resources */ = {isa = PBXBuildFile; fileRef = A9755CB4297876EB00819F7A /* ios-marketing.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A9755CA929786BFC00819F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9755CAC29786BFC00819F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9755CAE29786BFC00819F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9755CB4297876EB00819F7A /* ios-marketing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ios-marketing.png"; path = "../../../../../../../Desktop/ios-marketing.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				A9755CA229786BFA00819F7A /* SceneDelegate.swift */,
 				A9755CA429786BFA00819F7A /* ViewController.swift */,
 				A9755CA629786BFA00819F7A /* Main.storyboard */,
+				A9755CB4297876EB00819F7A /* ios-marketing.png */,
 				A9755CA929786BFC00819F7A /* Assets.xcassets */,
 				A9755CAB29786BFC00819F7A /* LaunchScreen.storyboard */,
 				A9755CAE29786BFC00819F7A /* Info.plist */,
@@ -127,6 +130,7 @@
 			files = (
 				A9755CAD29786BFC00819F7A /* LaunchScreen.storyboard in Resources */,
 				A9755CAA29786BFC00819F7A /* Assets.xcassets in Resources */,
+				A9755CB5297876EB00819F7A /* ios-marketing.png in Resources */,
 				A9755CA829786BFA00819F7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
