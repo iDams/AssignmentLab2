@@ -13,6 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    // variable
     var result = 0;
     var plusOrMinus = 1;
     
@@ -29,22 +31,32 @@ class ViewController: UIViewController {
     }
     
     @IBAction func resetButton(_ sender: Any) {
+        // Label to restet the result
         LabelCounter.text = "0";
+        // Restet the value plus or minus
         plusOrMinus = 1;
+        // Restet the result
         result = 0;
     }
     @IBAction func stepButton(_ sender: Any) {
+        // change value to plus or minus
         plusOrMinus = 2;
     }
     
     
     func increment(){
+        // increase the result by +1
         result = result + plusOrMinus;
+        
+        // label to increase the result
         LabelCounter.text = String(result)
     }
     
     func decrement(){
+        // decrease the result by -1
         result = result - plusOrMinus;
+        
+        // label to decrease the result
         LabelCounter.text = String(result)
     }
     
