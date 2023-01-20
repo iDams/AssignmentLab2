@@ -31,11 +31,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func resetButton(_ sender: Any) {
-        // Label to restet the result
+        // Label to reset the result
         LabelCounter.text = "0";
-        // Restet the value plus or minus
+        // Reset the value plus or minus
         plusOrMinus = 1;
-        // Restet the result
+        // Reset the result
         result = 0;
     }
     @IBAction func stepButton(_ sender: Any) {
