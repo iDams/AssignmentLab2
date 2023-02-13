@@ -70,7 +70,7 @@
                                     <action selector="stepButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X2f-lz-4SP"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ios-marketing.png" translatesAutoresizingMaskIntoConstraints="NO" id="c7g-x2-F6I">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="c7g-x2-F6I">
                                 <rect key="frame" x="87" y="142" width="240" height="128"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRh-GP-ZgY">
@@ -119,7 +119,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ios-marketing.png" width="1024" height="1024"/>
+        <image name="Image" width="136" height="136"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
